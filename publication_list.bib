@@ -1,0 +1,98 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Qiao Sun at 2022-11-07 16:59:11 +0800 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+@string{arxiv = {arXiv.org}}
+
+@string{cvpr = {Proc. IEEE Conf. on Computer Vision and Pattern	Recognition (CVPR)}}
+
+@string{eccv = {Proc. of the European Conf. on Computer Vision (ECCV)}}
+
+@string{iccv = {Proc. of the IEEE International Conf. on Computer Vision (ICCV)}}
+
+@string{neurips = {Advances in Neural Information Processing Systems (NeurIPS)}}
+
+@string{threedv = {Proc. of the International Conf. on 3D Vision (3DV)}}
+
+
+@article{Huang:2022aa,
+	abstract = {Predicting future behaviors of road agents is a key task in autonomous driving. While existing models have demonstrated great success in predicting marginal agent future behaviors, it remains a challenge to efficiently predict consistent joint behaviors of multiple agents. Recently, the occupancy flow fields representation was proposed to represent joint future states of road agents through a combination of occupancy grid and flow, which supports efficient and consistent joint predictions. In this work, we propose a novel occupancy flow fields predictor to produce accurate occupancy and flow predictions, by combining the power of an image encoder that learns features from a rasterized traffic image and a vector encoder that captures information of continuous agent trajectories and map states. The two encoded features are fused by multiple attention modules before generating final predictions. Our simple but effective model ranks 3rd place on the Waymo Open Dataset Occupancy and Flow Prediction Challenge, and achieves the best performance in the occluded occupancy and flow prediction task.},
+	author = {Xin Huang and Xiaoyu Tian and Junru Gu and Qiao Sun and Hang Zhao},
+	date-added = {2022-11-07 16:55:42 +0800},
+	date-modified = {2022-11-07 16:57:42 +0800},
+	eprint = {2208.04530},
+	html = {https://arxiv.org/abs/2208.04530},
+	img = {assets/img/publications/vectorflow.png},
+	month = {08},
+	title = {VectorFlow: Combining Images and Vectors for Traffic Occupancy and Flow Prediction},
+	url = {https://arxiv.org/pdf/2208.04530.pdf},
+	year = {2022},
+	bdsk-url-1 = {https://arxiv.org/pdf/2208.04530.pdf},
+	bdsk-url-2 = {https://arxiv.org/abs/2208.04530}}
+
+@article{Gu:2021aa,
+	abstract = {In autonomous driving, goal-based multi-trajectory prediction methods are proved to be effective recently, where they first score goal candidates, then select a final set of goals, and finally complete trajectories based on the selected goals. However, these methods usually involve goal predictions based on sparse predefined anchors. In this work, we propose an anchor-free model, named DenseTNT, which performs dense goal probability estimation for trajectory prediction. Our model achieves state-of-the-art performance, and ranks 1st on the Waymo Open Dataset Motion Prediction Challenge. Project page is at this https URL.},
+	author = {Junru Gu and Qiao Sun and Hang Zhao},
+	code = {https://github.com/Tsinghua-MARS-Lab/DenseTNT},
+	date-added = {2022-11-05 18:40:48 +0800},
+	date-modified = {2022-11-06 12:57:24 +0800},
+	eprint = {2106.14160},
+	html = {https://github.com/Tsinghua-MARS-Lab/DenseTNT},
+	img = {assets/img/publications/densetnt.png},
+	month = {06},
+	title = {DenseTNT: Waymo Open Dataset Motion Prediction Challenge 1st Place Solution},
+	url = {https://arxiv.org/pdf/2106.14160.pdf},
+	year = {2021},
+	bdsk-url-1 = {https://arxiv.org/pdf/2106.14160.pdf},
+	bdsk-url-2 = {https://arxiv.org/abs/2106.14160}}
+
+@article{Sun:2022ab,
+	abstract = {Motion prediction is crucial in enabling safe motion planning for autonomous vehicles in interactive scenarios. It allows the planner to identify potential conflicts with other traffic agents and generate safe plans. Existing motion predictors often focus on reducing prediction errors, yet it remains an open question on how well they help identify the conflicts for the planner. In this paper, we evaluate state-of-the-art predictors through novel conflict-related metrics, such as the success rate of identifying conflicts. Surprisingly, the predictors suffer from a low success rate and thus lead to a large percentage of collisions when we test the prediction-planning system in an interactive simulator. To fill the gap, we propose a simple but effective alternative that combines a physics-based trajectory generator and a learning-based relation predictor to identify conflicts and infer conflict relations. We demonstrate that our predictor, P4P, achieves superior performance over existing learning-based predictors in realistic interactive driving scenarios from Waymo Open Motion Dataset.},
+	author = {Qiao Sun and Xin Huang and Brian C. Williams and Hang Zhao},
+	date-added = {2022-11-05 18:37:00 +0800},
+	date-modified = {2022-11-06 16:49:59 +0800},
+	eprint = {2211.01634},
+	html = {https://arxiv.org/abs/2211.01634},
+	img = {assets/img/publications/p4p.gif},
+	month = {11},
+	title = {P4P: Conflict-Aware Motion Prediction for Planning in Autonomous Driving},
+	url = {https://arxiv.org/pdf/2211.01634.pdf},
+	year = {2022},
+	bdsk-url-1 = {https://arxiv.org/pdf/2211.01634.pdf},
+	bdsk-url-2 = {https://arxiv.org/abs/2211.01634}}
+
+@article{Sun:2022aa,
+	abstract = {Interactive traffic simulation is crucial to autonomous driving systems by enabling testing for planners in a more scalable and safe way compared to real-world road testing. Existing approaches learn an agent model from large-scale driving data to simulate realistic traffic scenarios, yet it remains an open question to produce consistent and diverse multi-agent interactive behaviors in crowded scenes. In this work, we present InterSim, an interactive traffic simulator for testing autonomous driving planners. Given a test plan trajectory from the ego agent, InterSim reasons about the interaction relations between the agents in the scene and generates realistic trajectories for each environment agent that are consistent with the relations. We train and validate our model on a large-scale interactive driving dataset. Experiment results show that InterSim achieves better simulation realism and reactivity in two simulation tasks compared to a state-of-the-art learning-based traffic simulator.},
+	author = {Qiao Sun and Xin Huang and Brian C. Williams and Hang Zhao},
+	code = {https://github.com/Tsinghua-MARS-Lab/InterSim},
+	date-added = {2022-11-05 18:36:39 +0800},
+	date-modified = {2022-11-05 18:52:58 +0800},
+	eprint = {2210.14413},
+	html = {https://tsinghua-mars-lab.github.io/InterSim/},
+	img = {assets/img/publications/intersim.png},
+	month = {10},
+	title = {InterSim: Interactive Traffic Simulation via Explicit Relation Modeling},
+	url = {https://arxiv.org/pdf/2210.14413.pdf},
+	year = {2022},
+	bdsk-url-1 = {https://arxiv.org/pdf/2210.14413.pdf},
+	bdsk-url-2 = {https://arxiv.org/abs/2210.14413}}
+
+@inproceedings{Sun_2022_CVPR,
+	author = {Sun, Qiao and Huang, Xin and Gu, Junru and Williams, Brian C. and Zhao, Hang},
+	booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	code = {https://github.com/Tsinghua-MARS-Lab/M2I},
+	date-added = {2022-11-05 18:36:18 +0800},
+	date-modified = {2022-11-06 16:39:15 +0800},
+	html = {https://tsinghua-mars-lab.github.io/M2I/},
+	img = {assets/img/publications/M2I.gif},
+	month = {June},
+	pages = {6543-6552},
+	title = {M2I: From Factored Marginal Trajectory Prediction to Interactive Prediction},
+	url = {https://openaccess.thecvf.com/content/CVPR2022/html/Sun_M2I_From_Factored_Marginal_Trajectory_Prediction_to_Interactive_Prediction_CVPR_2022_paper.html},
+	year = {2022},
+	bdsk-url-1 = {https://openaccess.thecvf.com/content/CVPR2022/html/Sun_M2I_From_Factored_Marginal_Trajectory_Prediction_to_Interactive_Prediction_CVPR_2022_paper.html}}
