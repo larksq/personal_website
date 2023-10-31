@@ -18,7 +18,7 @@ def get_personal_data():
                     to learn a safe and efficient driving policy with crowded human road users.
                 </p>
                 <p>
-                    <a href="https://m-niemeyer.github.io/assets/pdf/CV_Qiao_Sun.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="https://qiaosun.me/assets/pdf/CV_Qiao_Sun.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:{email}" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://scholar.google.com/citations?user=D1KNQasAAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/{github}" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
