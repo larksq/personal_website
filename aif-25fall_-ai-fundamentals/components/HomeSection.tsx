@@ -19,7 +19,7 @@ const HomeSection: React.FC = () => {
         muted
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        src="./assets/bg_video.mp4"
+        src="/aif-25fall_-ai-fundamentals/assets/bg_video.mp4"
         poster="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" // Simple dark poster to prevent white flash
       >
         Your browser does not support the video tag.
